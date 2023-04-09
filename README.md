@@ -1,5 +1,5 @@
 # Qtheme-examples
-Examples of usage for library @quak.lib/qtheme
+Examples of usage library **@quak.lib/qtheme**
 
 ## Types of examples
 
