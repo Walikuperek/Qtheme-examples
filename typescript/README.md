@@ -1,4 +1,4 @@
-# @quak.lib/Qtheme example - Javascript + HTML
+# @quak.lib/Qtheme example - Typescript + HTML
 
 ## Requirements
 Vite (build tool) requires Node.js version 14.18+, 16+.
@@ -6,21 +6,25 @@ Vite (build tool) requires Node.js version 14.18+, 16+.
 ## Overview
 
 *Example Showcase*
-![ShowcaseGIF](readme_assets/veed_example_qtheme_vanilla.gif)
+![ShowcaseGIF](readme_assets/veed_example_qtheme_ts.gif)
 
 This project is made as an example of `@quak.lib/Qtheme` library.
 
 ## How to Qtheme with Vanilla JS + HTML?
-Qtheme works with any framework and plain JS with HTML as well.
+Qtheme works with any framework and Typescript with HTML as well.
 
 # Init vite
+Create project, follow prompts and choose `vanilla-ts` template.
 ```bash
 npm create vite@latest
+```
+Enter project directory and install dependencies.
+```bash
 cd your-vite-project
 npm install
 ```
 
-# Install Qtheme & dependencies
+# Install Qtheme
 ```bash
 npm install @quak.lib/qtheme
 ```
@@ -32,9 +36,9 @@ npm run dev
 
 # Create theme
 ```typescript
-import {Qtheme} from '@quak.lib/qtheme'
+import {Qtheme, Theme} from '@quak.lib/qtheme'
 
-const darkTheme = {
+const darkTheme: Theme = {
   name: 'dark',
   atoms: [
       ['primary', 'dodgerblue'],
@@ -48,7 +52,7 @@ const darkTheme = {
 
 # Init theme
 ```typescript
-const savedTheme = Qtheme.getTheme()
+const savedTheme: Theme | null = Qtheme.getTheme()
 
 if (savedTheme) {
   Qtheme.setTheme(savedTheme)
