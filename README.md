@@ -4,6 +4,7 @@ Examples of usage for library @quak.lib/qtheme
 ## Types of examples
 
 ![SvelteLogo](svelte/src/assets/svelte.svg)
+![ReactLogo](react/src/assets/svelte.svg)
 ![JSLogo](vanilla/vite-javascript/public/javascript.svg)
 ![TSLogo](typescript/public/typescript.svg)
 
