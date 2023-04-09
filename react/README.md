@@ -13,6 +13,14 @@ This project is made as an example of `@quak.lib/Qtheme` library.
 ## How to Qtheme with React?
 Qtheme works with any framework and JS/Typescript with HTML as well.
 
+# Init this project or init separate one with Vite
+```bash
+git clone https://github.com/Walikuperek/Qtheme-examples.git
+cd qtheme-examples/react
+npm install
+npm run dev # and visit localhost
+```
+
 # Init vite
 Create project, follow prompts and choose `React` template.
 ```bash
