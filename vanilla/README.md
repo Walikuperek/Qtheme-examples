@@ -6,7 +6,7 @@ Vite (build tool) requires Node.js version 14.18+, 16+.
 ## Overview
 
 *Example Showcase*
-![ShowcaseGIF](readme_assets/veed_example_qtheme_vanilla.gif)
+![ShowcaseGIF](readme_assets/veed_example_qtheme_js.gif)
 
 This project is made as an example of `@quak.lib/Qtheme` library.
 
