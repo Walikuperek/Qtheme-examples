@@ -13,6 +13,14 @@ This project is made as an example of `@quak.lib/Qtheme` library.
 ## How to Qtheme with Vanilla JS + HTML?
 Qtheme works with any framework and plain JS with HTML as well.
 
+# Init this project or init separate one with Vite
+```bash
+git clone https://github.com/Walikuperek/Qtheme-examples.git
+cd qtheme-examples/vanilla/vite-javascript
+npm install
+npm run dev # and visit localhost
+```
+
 # Init vite
 ```bash
 npm create vite@latest
