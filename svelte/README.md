@@ -13,7 +13,15 @@ This project is made as an example of `@quak.lib/Qtheme` library.
 ## How to Qtheme with Svelte?
 Qtheme works with any framework and Typescript with HTML as well.
 
-# Init vite
+### Init this project or init separate one with Vite
+```bash
+git clone https://github.com/Walikuperek/Qtheme-examples.git
+cd qtheme-examples/svelte
+npm install
+npm run dev # and visit localhost
+```
+
+### Init vite
 Create project, follow prompts and choose `Svelte` template.
 ```bash
 npm create vite@latest
@@ -24,17 +32,17 @@ cd your-vite-project
 npm install
 ```
 
-# Install Qtheme
+### Install Qtheme
 ```bash
 npm install @quak.lib/qtheme
 ```
 
-# Run project
+### Run project
 ```bash
 npm run dev
 ```
 
-# Create theme
+### Create theme
 ```typescript
 import {Qtheme, Theme} from '@quak.lib/qtheme'
 
@@ -50,7 +58,7 @@ const darkTheme: Theme = {
 }
 ```
 
-# Init theme
+### Init theme
 ```typescript
 const savedTheme: Theme | null = Qtheme.getTheme()
 
@@ -62,12 +70,12 @@ if (savedTheme) {
 }
 ```
 
-# Change theme
+### Change theme
 ```typescript
 Qtheme.setTheme(lightTeme)
 ```
 
-# Use theme
+### Use theme
 ```html
 <h1 class="text-primary">Hello world!</h1>
 <p class="text-color">This is regular text color</p>
