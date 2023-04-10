@@ -1,2 +1,2 @@
-export * from './dark.js'
-export * from './light.js'
+export * from './dark'
+export * from './light'
