@@ -11,9 +11,17 @@ Examples of usage library `@quak.lib/qtheme`
 ## Types of examples
 
 ![AgularLogo](angular/readme_assets/angular.svg)
+[Angular usage repo](https://github.com/Walikuperek/Qtheme-examples/tree/master/angular)
+
 ![SvelteLogo](svelte/src/assets/svelte.svg)
+[Angular usage repo](https://github.com/Walikuperek/Qtheme-examples/tree/master/svelte)
+
 ![ReactLogo](react/src/assets/react.svg)
+[Angular usage repo](https://github.com/Walikuperek/Qtheme-examples/tree/master/react)
+
 ![JSLogo](vanilla/vite-javascript/public/javascript.svg)
+[Angular usage repo](https://github.com/Walikuperek/Qtheme-examples/tree/master/vanilla)
+
 ![TSLogo](typescript/public/typescript.svg)
 
 ## Showcase - example for TS
