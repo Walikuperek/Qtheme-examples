@@ -28,7 +28,7 @@ cd your-vite-project
 npm install
 ```
 
-# Install Qtheme & dependencies
+# Install Qtheme
 ```bash
 npm install @quak.lib/qtheme
 ```
