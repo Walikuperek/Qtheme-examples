@@ -13,7 +13,7 @@ This project is made as an example of `@quak.lib/Qtheme` library.
 ## How to Qtheme with Angular?
 Qtheme works with any framework and JS/Typescript with HTML as well.
 
-### Init this project or init separate one with Vite
+### Init this project or init separate one with angular CLI
 ```bash
 git clone https://github.com/Walikuperek/Qtheme-examples.git
 cd qtheme-examples/angular
@@ -21,12 +21,12 @@ npm install
 ng serve --open # will open localhost:4200 in browser
 ```
 
-### Init vite
+### Init
 Create project, follow prompts
 ```bash
 ng new your-angular-project
 ```
-Enter project directory and install dependencies.
+Enter project directory
 ```bash
 cd your-angular-project
 ```
@@ -36,12 +36,12 @@ cd your-angular-project
 npm install @quak.lib/qtheme
 ```
 
-# Run project
+### Run project
 ```bash
 ng serve --open
 ```
 
-# Create theme
+### Create theme
 ```typescript
 import {Qtheme, Theme} from '@quak.lib/qtheme'
 
@@ -57,7 +57,7 @@ const darkTheme: Theme = {
 }
 ```
 
-# Init theme
+### Init theme
 ```typescript
 const savedTheme: Theme | null = Qtheme.getTheme()
 
@@ -69,12 +69,12 @@ if (savedTheme) {
 }
 ```
 
-# Change theme
+### Change theme
 ```typescript
 Qtheme.setTheme(lightTeme)
 ```
 
-# Use theme
+### Use theme
 ```html
 <h1 class="text-primary">Hello world!</h1>
 <p class="text-color">This is regular text color</p>
