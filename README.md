@@ -31,4 +31,6 @@ Examples of usage library `@quak.lib/qtheme`
 
 ![TSApp](typescript/readme_assets/veed_example_qtheme_ts.gif)
 
-More info at [GitHub Qtheme](https://github.com/walikuperek/qtheme)Made & maintained with ❤️ by [QUAK](https://quak.com.pl)
+More info at [GitHub Qtheme](https://github.com/walikuperek/qtheme)
+
+Made & maintained with ❤️ by [QUAK](https://quak.com.pl)
