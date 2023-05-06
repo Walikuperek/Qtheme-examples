@@ -1,14 +1,13 @@
 # Qtheme-examples
-Examples of usage library `@quak.lib/qtheme`
+Examples of usage `@quak.lib/qtheme`
 
 ![QthemeLogo](https://quak.com.pl/assets/logo/qtheme_Background_Removed.png)
 ![LicenseBadge](https://img.shields.io/github/license/walikuperek/qtheme)
 ![TestsBadge](https://img.shields.io/badge/Tests-7%2F7%20%E2%9C%85-success)
 
 * [Website & Docs & DEMO](https://quak.com.pl/lib/qtheme/index.html)
-* [GitHub repository](https://github.com/Walikuperek/Qtheme)
-* [NPM package](https://www.npmjs.com/package/@quak.lib/qtheme)
-* [Examples repository](https://github.com/Walikuperek/Qtheme-examples)
+* [Qtheme GitHub repository](https://github.com/Walikuperek/Qtheme)
+* [Qtheme NPM package](https://www.npmjs.com/package/@quak.lib/qtheme)
 
 ## Types of examples
 
