@@ -18,7 +18,7 @@ npm install
 ```
 
 ```bash
-npm run dev
+ng serve
 ```
 
 ## How to Qtheme with Angular?
