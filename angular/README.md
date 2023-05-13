@@ -10,6 +10,17 @@ Vite (build tool) requires Node.js version 14.18+, 16+.
 
 This project is made as an example of `@quak.lib/Qtheme` library.
 
+### How to run this project?
+```bash
+git clone <urlToThisRepo>
+```
+```bash
+npm install
+```
+```bash
+npm run dev
+```
+
 ## How to Qtheme with Angular?
 Qtheme works with any framework and JS/Typescript with HTML as well.
 
